@@ -1,0 +1,6 @@
+exe{xserver-test}: {h c}{**}
+{
+  test = true
+}
+
+c.libs +=  -lX11
